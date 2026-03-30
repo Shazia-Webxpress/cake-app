@@ -11,8 +11,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
-    <h1>🔥 My Cake App</h1>
-
+   <h1>🚀 CI/CD FINAL TEST 🚀</h1>
       <div style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
