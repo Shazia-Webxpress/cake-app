@@ -4,14 +4,14 @@ function App() {
   const [cakes, setCakes] = useState([]);
 
   useEffect(() => {
-    fetch("http://13.62.56.221:5000/api/cakes")
+    fetch("http://13.63.60.202:5000/api/cakes")
       .then(res => res.json())
       .then(data => setCakes(data));
   }, []);
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
-      <h1>🍰 Cake Dashboard</h1>
+    <h1>🔥 My Cake App</h1>
 
       <div style={{
         display: "grid",
